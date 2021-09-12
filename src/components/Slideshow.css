@@ -1,0 +1,49 @@
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 430px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.react-slideshow-container+ul.indicators {
+  position: relative;
+  top: -30px;
+  margin: 0;  
+}
+
+/* .indicator:hover, .react-slideshow-container+ul.indicators .each-slideshow-indicator.active, .react-slideshow-container+ul.indicators .each-slideshow-indicator:focus {
+  opacity: 100;
+  color:tomato;
+}
+
+.react-slideshow-container+ul.indicators .each-slideshow-indicator:before {
+  background: #BDBDBD;
+} */
+
+.slideshow {
+  height: 430px;
+}
+
+.indicator.active {
+  color: #F8475F;
+}
+
+.indicator {
+  height: 0;
+  color: #BDBDBD;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.indicator svg {
+  height: 10px;
+}
+
