@@ -4,15 +4,17 @@ import './Header.css';
 import { FaSistrix } from 'react-icons/fa';
 import { BsFillCaretDownFill, BsPerson } from 'react-icons/bs';
 import { FiShoppingCart } from 'react-icons/fi';
+import { AiOutlineMenu } from 'react-icons/ai';
 
 class Header extends React.Component {
   render() {
     return(
       <header>
         <div className="header">
+          <span className="sandwich-menu"><AiOutlineMenu /></span>
           <figure className="logo">
-            <img height="49" width="135" alt="logo da marca" src={logo} />
-          </figure>
+            <img alt="logo da marca" src={logo} />
+          </figure>          
           <ul className="main-menu">
             <li className="menu-item">Home</li>
             <li className="menu-item">Categoria 1 <BsFillCaretDownFill className="icon" /></li>
