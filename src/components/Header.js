@@ -7,7 +7,23 @@ import { FiShoppingCart } from 'react-icons/fi';
 import { AiOutlineMenu } from 'react-icons/ai';
 
 class Header extends React.Component {
+  constructor() {
+    super();
+    this.handleChange = this.handleChange.bind(this);
+    this.state = {
+      searchText: '',
+    };
+  }
+
+  handleChange({ target }) {
+    const { name, value } = target;  
+    this.setState({
+      [name]: value,
+    });
+  }
+
   render() {
+    const { searchText } = this.state;
     return(
       <header>
         <div className="header">
@@ -22,7 +38,14 @@ class Header extends React.Component {
             <li className="menu-item">Contato</li>
           </ul>
           <div className="search-bar">
-            <input name="search-bar" className="search-bar-input" type="search" value="" placeholder="O que está procurando?" />
+            <input              
+              name="searchText" 
+              className="search-bar-input" 
+              type="search"
+              placeholder="O que está procurando?"
+              value={ searchText }
+              onChange={ this.handleChange } 
+            />
             <FaSistrix />
           </div>
           <span className="my-account"><BsPerson />Minha Conta</span>
