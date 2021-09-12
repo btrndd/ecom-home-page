@@ -1,26 +1,42 @@
 header {
   display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
   justify-content: space-around;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333333;
+  height: 80px;
+  width: 1248px;
 }
 
 .main-menu {
   display: flex;
   list-style-type: none;
   align-items: center;
+  padding: 0;
 }
 
 .menu-item {
-  margin: 0 10px 0 10px;
+  display: flex;
+  align-items: center;
+  margin: 0 20px 0 0;
 }
 
 .logo {
   align-items: center;
-  background-color: aqua;
 }
 
 .search-bar {
   display: flex;
   align-self: center;
+  justify-content: space-between;
   border-bottom: black 1px solid;
   width: 280px;
   height: 22px;
@@ -30,4 +46,47 @@ header {
   border: none;
   width: 280px;
   height: 22px;
+}
+
+.icon {
+  margin-left: 4px;
+}
+
+.my-account {
+  display: flex;
+  align-items: center;
+  color: #7a7a7a;
+}
+
+.my-account svg {
+  color: black;
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.cart-items {
+  border-radius: 50%;
+  background-color: #F8475F;
+  position: relative;
+  width: 14px;
+  height: 14px;
+  right: 10px;
+  top: -8px;
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+}
+
+.cart-items p {
+  position: relative;
+  width: 6px;
+  height: 14px;
+  right: -4px;
+  top: -11.5px;
 }
