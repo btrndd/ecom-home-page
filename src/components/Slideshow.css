@@ -54,3 +54,38 @@
   height: 10px;
 }
 
+@media screen and (max-width: 1024px) {
+  .slide {
+    background-image: url(../img/slide_1_mobile.jpg) !important;
+    background-size: contain;
+  }
+
+  .each-slide > div {
+    height: 192.7px;
+  }
+
+  .slideshow {
+    height: 192.7px;
+  }
+
+  .each-slide span {
+    height: fit-content;
+    width: fit-content;
+    left: auto;
+  }
+
+  .each-slide span h2 {  
+    font-weight: 900;
+    font-size: 20px;
+    color: #E9BF33;
+    margin: 0 20px;
+    width: 277px;
+  }
+  
+  .each-slide span h4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin: 0 20px;
+  }
+}

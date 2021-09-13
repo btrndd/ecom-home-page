@@ -21,7 +21,7 @@ class Slideshow extends React.Component {
       <div className="slideshow">
         <Slide {...properties}>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+            <div className="slide" style={{'backgroundImage': `url(${slideImages[0]})`}}>
               <span>
                 <h4>Olá, você quer fazer entrar de cabeça em desenvolvimento?</h4>
                 <h2>front-end • back-end • mobile</h2>

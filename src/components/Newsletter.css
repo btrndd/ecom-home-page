@@ -46,7 +46,9 @@
 @media screen and (max-width: 1024px) {
   .newsletter {
     height: 276px;
-    padding: 24px 16px 0 16px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
   }
 
   .newsletter h2 {
