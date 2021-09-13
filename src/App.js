@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Slideshow from './components/Slideshow';
 import Newsletter from './components/Newsletter';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Slideshow />
       <Newsletter />
+      <Footer />
     </div>
   );
 }

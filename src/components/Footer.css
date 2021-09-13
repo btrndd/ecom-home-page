@@ -1,0 +1,120 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: black;
+  height: 213px;
+  border-bottom: 10px solid #C0C0C0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.info h2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: Nunito;
+  margin-top: 25px;
+}
+
+.info p {
+  font-family: Nunito;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  margin: 5px 0 0;
+}
+
+.line {
+  width: 45px;
+  height: 5px;
+  background-color: #E9BF33;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 195px;
+  height: 38px;
+  background-color: #E9BF33;
+  color: #E5E5E5;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 0;
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#contato {
+  margin: 56px 0 25px 0;
+}
+
+.button-icon {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+.buttons button p {
+  padding: 0;
+  margin: 0;
+  width: 127px;
+  line-height: 12px;
+}
+
+.companies {
+  display: flex;
+  align-items: center;
+}
+
+.companies figure {
+  margin: 0 25px 0 0;
+}
+
+.companies figcaption {
+  font-size: 10.6px;
+  font-weight: 400;
+  color: #E9BF33;
+  text-align: left;
+  margin-bottom: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    flex-direction: column;
+    height: 386px;
+    align-items: center;
+    border-bottom: 5px solid #C0C0C0;
+  }
+
+  .info {
+    align-self: flex-start;
+    margin-left: 16px;
+    margin-top: 27px
+  }
+
+  .buttons {
+    margin-bottom: 24px;
+    margin-top: -27px;
+  }
+
+  .companies {
+    margin-bottom: 19px;
+  }
+
+  .companies figure {
+    margin: 0 47px 0 47px;
+  }
+}
