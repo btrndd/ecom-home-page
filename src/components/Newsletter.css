@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.newsletter {
+  background-color: #F2F2F2;
+  height: 146px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Lato;
+}
+
+.newsletter h2 {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 22px;
+  color: #333333;
+}
+
+.newsletter input {
+  height: 48px;
+  width: 260px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 8px;
+  padding: 0;
+  padding-left: 20px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: bold;
+  color: #585858;
+}
+
+.newsletter button {
+  height: 48px;
+  width: 140px;
+  background-color: #E9BF33;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 14px;
+  padding: 0;
+}
