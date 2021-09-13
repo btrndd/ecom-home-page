@@ -42,3 +42,38 @@
   font-size: 14px;
   padding: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .newsletter {
+    height: 276px;
+    padding: 24px 16px 0 16px;
+  }
+
+  .newsletter h2 {
+    margin-bottom: 0;
+    text-align: left;
+    width: fit-content;
+  }
+
+  .newsletter button {
+    margin-top: 7px;
+    height: 48px;
+    width: 288px;
+  }
+
+  .newsletter input {
+    margin-top: 22px;
+    margin-right: 0;
+  }
+
+  .newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .news-text {
+    align-self: center;
+    width: 288px;
+  }
+}

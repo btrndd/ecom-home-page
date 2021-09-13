@@ -93,16 +93,16 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     height: 386px;
     align-items: center;
     border-bottom: 5px solid #C0C0C0;
   }
 
   .info {
-    align-self: flex-start;
-    margin-left: 16px;
-    margin-top: 27px
+    /* align-self: flex-start; */
+    margin-left: 5%;
   }
 
   .buttons {
