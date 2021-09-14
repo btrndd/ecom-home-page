@@ -10,15 +10,14 @@ class Products extends React.Component {
         <div className="products">
           <h2>Mais Vendidos</h2>
           <div className="line-products"></div>
-          <div className="products-mobile"><Product /></div>
-          <div className="products-desk">
-            <span className="arrow"><IoIosArrowBack /></span>   
-            <Product />
-            <Product />
-            <Product />
-            <Product />
-            <Product />
-            <span className="arrow"><IoIosArrowForward /></span>   
+          <div className="products-list">
+            <span className="arrow-carrosel"><IoIosArrowBack /></span>   
+            <span className="product-1"><Product /></span>
+            <span className="product-2"><Product /></span>
+            <span className="product-3"><Product /></span>
+            <span className="product-4"><Product /></span>
+            <span className="product-5"><Product /></span>
+            <span className="arrow-carrosel"><IoIosArrowForward /></span>   
           </div>
         </div>
       </section>
