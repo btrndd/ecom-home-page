@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+}
+
+.product {
+  width: 216px;
+  height: 353px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Nunito;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px #7A7A7A;
+  margin: 0 10px;
+}
+
+.tag {
+  position: absolute;
+  width: 0; 
+  height: 0;
+  border-bottom: 72px solid transparent; 
+  border-right: 75px solid #F8475F;
+  align-self: flex-end;
+}
+
+.tag h3 {
+  position: relative;
+  left: 36px;
+  top: 12.25px;
+  color: white;
+  font-family: Nunito;
+  text-align: right;
+  font-weight: 600;
+  font-size: 17.2849px;
+  line-height: 24px;
+}
+
+.product figcaption {
+  font-size: 12px;
+  font-weight: 600;
+  color: #7A7A7A;
+  font-style: normal;
+  margin-bottom: 5px;
+}
+
+.rating {
+  display: flex;
+  color: #FFD874;
+  font-size: 10px;
+  width: 67.39px;
+  justify-content: space-around;
+  margin-bottom: 7.35px;
+}
+
+.comparative-price {
+  font-size: 12px;
+  font-weight: 400;
+  color: #7A7A7A;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.installments {
+  font-size: 11px;
+  font-weight: 400;
+  color: #7A7A7A;
+  margin-bottom: 8px;
+}
+
+.buy-button {
+  background-color: #00E676;
+  height: 32.42px;
+  width: 125.28px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy-button svg {
+  font-size: 16px;
+  margin-right: 2px;
+}

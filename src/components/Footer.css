@@ -116,4 +116,18 @@
   .companies figure {
     margin: 0 47px 0 47px;
   }
+
+  .line {
+    width: 32px;
+    margin-bottom: 12px;
+  }
+
+  .button-icon {
+    font-size: 20px;
+  }
+
+  .buttons button {
+    justify-content: space-around;
+    color: #FFFFFF;
+  }
 }
